@@ -131,7 +131,7 @@ Alkam T., et al. (2025). Data-Driven Subtyping of Alzheimer’s Disease ED Prese
 
 For questions or collaboration inquiries, contact:
 **Tursun Alkam, MD, PhD, MBA**
-Email: [YourEmailHere]
+Email: [tursun.alkam at gmail.com]
 
 ---
 
