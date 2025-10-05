@@ -11,9 +11,21 @@ This repository contains the full analysis pipeline and source code used in the 
 
 ## 📘 Overview
 
-Older adults with Alzheimer's disease (AD) often present to emergency departments (EDs) with complex, overlapping comorbidities. In this study, we applied an **unsupervised machine learning pipeline** to the 2022 Nationwide Emergency Department Sample (NEDS) to identify age-stratified multimorbidity clusters based on the top 30 most common ICD-10 diagnoses.
+This project investigates the complex landscape of emergency department (ED) presentations among older adults with Alzheimer’s disease (AD) using a data-driven unsupervised machine learning pipeline. Leveraging the 2022 Nationwide Emergency Department Sample (NEDS)—the largest all-payer ED dataset in the U.S.—we identified age-stratified multimorbidity clusters based on the 30 most prevalent ICD-10 diagnosis codes in each age group (60–64, 65–74, 75–84, 85+).
 
-Using **UMAP for dimensionality reduction** and **HDBSCAN for density-based clustering**, we identified clinically meaningful subtypes that reflect evolving patterns of psychiatric, cardiometabolic, infectious, and palliative care burden across the aging continuum.
+We applied Uniform Manifold Approximation and Projection (UMAP) for dimensionality reduction and Hierarchical Density-Based Spatial Clustering of Applications with Noise (HDBSCAN) for density-aware clustering. The resulting clusters were visualized and interpreted using annotated diagnosis heatmaps, revealing distinct and clinically meaningful subtypes.
+
+These clusters highlight evolving comorbidity themes across the aging continuum, including:
+
+Psychiatric–metabolic overlap in younger-old adults
+
+Cardiorenal syndromes and frailty trajectories in mid- to late-old age
+
+Terminal multimorbidity and end-of-life care patterns in the oldest-old
+
+This repository contains the full reproducible pipeline, including data preprocessing, clustering, heatmap construction, and cluster interpretation notebooks.
+
+Our work aims to support precision emergency medicine, inform risk stratification models, and enable more personalized care strategies for patients with AD in acute settings.
 
 ---
 
